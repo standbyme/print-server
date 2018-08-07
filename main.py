@@ -8,7 +8,7 @@ app = Flask(__name__)
 def hello_world():
     print(request.headers)
     print(request.form)
-    return 'hello world'
+    return 'Hi'
 
 
 app.run(host = '0.0.0.0')
